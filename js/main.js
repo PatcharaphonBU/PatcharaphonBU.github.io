@@ -159,7 +159,7 @@ var base_url = window.location.origin;
 let model;
 (async function(){  
     console.log("model loading...");  
-    model = await tf.loadLayersModel("https://patcharaphonbu.github.io/model.json")
+    model = await tf.loadLayersModel("https://patcharaphonbu.github.io/models/model.json")
     console.log("model loaded..");
 })();
 
